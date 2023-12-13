@@ -17,13 +17,17 @@
     <header>
         <ul>
             <li><a href="#">CV 1</a></li>
-            <li><a href="#" class="active">CV 2</a></li>           
+            <li><a href="#" class="active">CV 2</a></li>     
         </ul>
     </header>
     <section class="hautdepage">
         <!-- infos -->
             <div class="adresse">
-                <span>25 rue des mésanges <br> Bat.A apt. 112 <br> 33000 Bordeaux</span>
+                <address>25 rue des mésanges</adress>
+                <address>Bat.A apt 112</adress>
+                <address>33000 Bordeaux</adress>
+                <!-- Changé par adress + un adress pour chq + .adress en flex direction column. -->
+                <!-- <span>25 rue des mésanges <br> Bat.A apt. 112 <br> 33000 Bordeaux</span> -->
             </div>
             <div class="infos2">
                 <h1>Martin Johnson</h1>
@@ -40,7 +44,9 @@
             </div>
             <div class="web">
                 <img src="Images/Bulle.svg" alt="">
-                <span>Martin@johnson.com <br><br> www.gamebymartin.com</span>
+                <span><a href="mailto:email@example.com">Martin@johnson.com</a>  <br> <a href="www.gamebymartin.com">www.gamebymartin.com</a> </span>
+                <!-- double span a la place. mais grosses modifs dans css. -->
+                <!-- etrange le br ne fonctionne pas... trouver moyen d'espacer les 2 txt. -->
             </div>
     </section>
 
@@ -55,36 +61,36 @@
                 connaissances. Aujourd’hui, je souhaite rejoindre un studio ou une entreprise du 
                 jeu-vidéo afin de développer des idées de jeux innovantes et originales
             </span>
-            <img class="perso" src="Images/Personnage.svg" alt="">
-            <img class="ruby" src="Images/Ruby.svg" alt="">
+            <img class="perso" src="Images/Personnage.svg" alt="Petit personnage pixellisé, souriant portant une cape.">
+            <img class="ruby" src="Images/Ruby.svg" alt="Ruby pixellisé">
         </div> 
-        <img class="pp" src="Images/Photodeprofil.svg" alt="PP">
+        <img class="pp" src="Images/Photodeprofil.svg" alt="Photo de profil de Martin Johnson">
     </section>
 
     <!-- EXP -->
     <section class="mid">
         <div class="part1">  <!-- Skills  -->
             <div class="image">
-                <img src="Images/Couronne.svg" alt="Parchemin">
+                <img src="Images/Couronne.svg" alt="Couronne pixellisé">
             </div>
             <ul>
                 <li>
-                    <img src="Images/Ampoule2.svg" alt="">
+                    <img src="Images/Ampoule2.svg" alt="Ampoule pixellisé">
                     <span>Créativité</span>
                 </li>
                 <li>
-                    <img src="Images/Stylo.svg" alt="">
+                    <img src="Images/Stylo.svg" alt="Stylo pixellisé">
                     <span>Écriture</span>
                 </li>
                 <li>
-                    <img src="Images/Peinture.svg" alt="">
+                    <img src="Images/Peinture.svg" alt="Peinture pixellisé">
                     <span>Design</span>
                 </li>
             </ul>
         </div>
         <div class="part2"> <!-- Experience -->
             <div class="image">
-                <img src="Images/Coffre.svg" alt="">
+                <img src="Images/Coffre.svg" alt="coffre pixellisé">
             </div>
             <ul>
                 <li>
@@ -99,7 +105,7 @@
         </div>
         <div class="part3"> <!-- ETUDES -->
             <div class="image">
-                <img src="Images/Parchemin.svg" alt="Parchemin">
+                <img src="Images/Parchemin.svg" alt="Parchemin pixellisé">
             </div>
             <ul>
                 <li><span class="gras">BTS Développeur web</span> <br> De septembre 2017 à septembre 2019 <br><span class="gras">CESI Bordeaux </span></li>
@@ -118,43 +124,43 @@
                 <li>
                     <span>Scénarisation</span>
                     <div class="image">
-                        <img src="Images/Barre1.svg" alt="">
+                        <img src="Images/Barre1.svg" alt="Barre de compétence remplit à environ ... %">
                     </div> 
                 </li>
                 <li>
                     <span>Unity</span>
                     <div class="image">
-                        <img src="Images/Barre2.svg" alt="">
+                        <img src="Images/Barre2.svg" alt="Barre de compétence remplit à environ ... %">
                     </div>
                 </li>
                 <li>
                     <span>Premiere CC</span>
                     <div class="image">
-                        <img src="Images/Barre3.svg" alt="">
+                        <img src="Images/Barre3.svg" alt="Barre de compétence remplit à environ ... %">
                     </div>                    
                 </li>
                 <li>
                     <span>Photoshop CC</span>
                     <div class="image">
-                        <img src="Images/Barre4.svg" alt="">
+                        <img src="Images/Barre4.svg" alt="Barre de compétence remplit à environ ... %">
                     </div>                    
                 </li>
                 <li>
                     <span>Illustrator CC</span>
                     <div class="image">
-                        <img src="Images/Barre5.svg" alt="">
+                        <img src="Images/Barre5.svg" alt="Barre de compétence remplit à environ ... %">
                     </div>                    
                 </li>
                 <li>
                     <span>GameMaker</span>
                     <div class="image">
-                        <img src="Images/Barre6.svg" alt="">
+                        <img src="Images/Barre6.svg" alt="Barre de compétence remplit à environ ... %">
                     </div>                   
                 </li>
                 <li>
                     <span>Blender <br> (modélisation)</span>
                     <div class="image">
-                        <img src="Images/Barre7.svg" alt="">
+                        <img src="Images/Barre7.svg" alt="Barre de compétence remplit à environ ... %">
                     </div>                    
                 </li>
             </ul>
@@ -165,27 +171,27 @@
                 <h3 class="hobbie">Hobbies</h3>
                 <ul> <!-- elements -->
                     <li> <!-- element -->
-                        <img src="Images/manette.svg" alt="">
+                        <img src="Images/manette.svg" alt="Manette de jeux-vidéos">
                         <span>Jeux-vidéos</span>
                     </li>
                     <li>
-                        <img src="Images/appareil-photo.svg" alt="">
+                        <img src="Images/appareil-photo.svg" alt="appareil photo">
                         <span>Photo</span>
                     </li>
                     <li>
-                        <img src="Images/cinéma.svg" alt="">
+                        <img src="Images/cinéma.svg" alt="Cinéma ... ?">
                         <span>Cinéma</span>
                     </li>
                     <li>
-                        <img src="Images/livre.svg" alt="">
+                        <img src="Images/livre.svg" alt="Livre">
                         <span>Romans SF</span>
                     </li>
                     <li>
-                        <img src="Images/Musique.svg" alt="">
+                        <img src="Images/Musique.svg" alt="Note de musique">
                         <span>K-pop</span>
                     </li>
                     <li>
-                        <img src="Images/Feuille.svg" alt="">
+                        <img src="Images/Feuille.svg" alt="Feuille d'arbre">
                         <span>Botanique</span>
                     </li>
                 </ul>
@@ -194,21 +200,21 @@
                 <h3 class="langue">Langues</h3>
                 <div class="Drapeaux">
                     <div class="Drapeau">
-                        <img src="Images/Drapeau-Français.svg" alt="">
+                        <img src="Images/Drapeau-Français.svg" alt="Drapeau de la France">
                         <span>Courant</span>
                     </div>
                     <div class="Drapeau">
-                        <img src="Images/Drapeau-Belge.svg" alt="">
+                        <img src="Images/Drapeau-Belge.svg" alt="Drapeau de la Belgique">
                         <span>Mittlere</span>
                     </div>
                     <div class="Drapeau">
-                        <img src="Images/Drapeau-Angleterre.svg" alt="">
+                        <img src="Images/Drapeau-Angleterre.svg" alt="Drapeau du Royaume-Unis">
+                        <!-- Modifier noms des images je crois mauvais... -->
                         <span>Fluent</span>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    
+    </section> 
 </body>
 </html>
