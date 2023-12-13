@@ -140,7 +140,7 @@
         width: 25vw;
     }
 
-    .adresse span{
+    .adresse address{
         font-size: 2vw;
     }
         
@@ -405,7 +405,7 @@
         width: 40vw;
     }
 
-    .hautdepage .adresse span{
+    .hautdepage .adresse address{
         font-size: 3.5vw;
     }
 
