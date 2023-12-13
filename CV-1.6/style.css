@@ -9,16 +9,6 @@
     padding: 0;
 }
 
-/* body{
-    background-image: url(Images/BCK.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-} */
-
-/* body{
-    background-color: #231f20;
-} */
-
 body{
     position: relative;
     background-color: #fdf8e2;
@@ -29,6 +19,7 @@ body{
     background-position-x: 10%;
     background-position-y: 10%
 }
+/* Innutile. Supprimer. */
 
 
 ::-webkit-scrollbar {
@@ -103,16 +94,6 @@ header ul li:hover .active{
     align-items: center;
     padding: 0% 2%;
 }
-
-/* .infos{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2%;
-    flex-direction: row;
-    max-height: 20vh;
-    
-} */
 
 .adresse{
     width: 15vw;
@@ -258,9 +239,6 @@ header ul li:hover .active{
     top: -3%;
     right: -7%;
 }
-
-
-
 
 /* EXPERIENCE */
 
@@ -477,14 +455,6 @@ header ul li:hover .active{
     filter: brightness(90%);
 }
 
-/* VAGUE */
-/* .vague img{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: 0;
-} */
-
 /* BOTTOM */
 
 .bottom{
@@ -542,10 +512,8 @@ header ul li:hover .active{
 .competences span{
     /* width: 70%; */
     font-weight: 750;
-    color:#4d504d;
-    
+    color:#4d504d;    
 }
-
 
 .textcontainer{
     width: 20vw;
