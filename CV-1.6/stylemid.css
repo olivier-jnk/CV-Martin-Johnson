@@ -9,7 +9,6 @@
         width: 5vw;
         height: auto;
         display: flex;
-        /* height: 61.09px; */
     }
 
     .langues{
@@ -20,10 +19,6 @@
     .hobbies{
         justify-content: center;
         width: 25vw;
-    }
-
-    .competences span{
-        /* width: 30%; */
     }
 
     .part3{
@@ -53,7 +48,6 @@
     .mid{
         display:flex;
         flex-direction: row; 
-        /* margin: 3% 0%; */
         padding: 5%;
     }
 
@@ -74,15 +68,6 @@
     .competences{
         justify-content: unset;
     }
-
-    .elements{
-        /* width: 50%; */
-    }
-
-    .Drapeaux{
-        /* width: 40%; */
-    }
-    
 }
 
 @media (min-width: 950px ){
@@ -100,7 +85,6 @@
 }
 
 /* MAX-width */
-
 
 @media (max-width: 1000px ){
     .mid span{
@@ -148,7 +132,7 @@
         width: 25vw; 
     }
 
-    .web span{
+    .web a{
         font-size: 1.3vw;
         top: 22%;
         right: 17%;
@@ -180,13 +164,7 @@
         margin: 0 auto;
     }
 
-    .competences span{
-        /* width: 70%; */
-    }
-
-    .presentation .perso{
-        
-        
+    .presentation .perso{        
         bottom: -11%;
         left: -9%;
     }
@@ -197,9 +175,7 @@
 
     header ul li a {
         font-size: 1.5em;
-    }
-        
-    
+    }    
 }
 
 @media (max-width: 950px ){
@@ -236,46 +212,31 @@
     .part1{
         width: auto;
         padding: 5%;
-        /* border-top: solid 4px #b9b9e7; */
-        /* margin-top: 5%;
-        margin-bottom: 5%; */
         margin: auto;
         margin-top: 5%;
         width: 70%;
-        /* background: linear-gradient(#E1E1FC, #E1FCEB); ; */
         background-color: #cdc8b650;
         border-top: solid 4px #9e9e9e;
-
     }
 
     .part2{
         margin: auto;
-        /* margin-top: 5%;
-        margin-bottom: 5%; */
         padding: 5%;
-        /* border-top: solid 4px #b3dec3; */
         width: 70%;
-        /* background: linear-gradient(#E1FCEB,#FCE2E1 ); ; */
         border-top: solid 4px #9e9e9e;
         background-color: #cdc8b650;
     }
 
     .part3{
-        /* margin-bottom: 5%;
-        margin-top: 5%; */
         margin: auto;
-        /* border-top: solid 4px #f5d0cf; */
         padding: 5%;
         width: 70%; 
-        /* background: linear-gradient(#FCE2E1, #fdf8e2 ); ; */
         border-top: solid 4px #9e9e9e;
         background-color: #cdc8b650;
-
     }
 
     .presentation .textcontainer{
-        width: 70%;
-    
+        width: 70%;   
     }
 
     .presentation .textcontainer span{
@@ -294,10 +255,7 @@
     .hobbies{
         margin-bottom: 5%;
         margin: 0 auto;
-    }
-
-    
-    
+    }  
 }
 
 @media (max-width: 680px ){
@@ -360,11 +318,7 @@
 
     .hobbies ul{
         width: 80vw;
-    }
-
-    
-
-    
+    }   
 }
 
 @media (max-width: 465px ){
@@ -391,7 +345,6 @@
     }
 
     /* hautdepage. */
-
     .hautdepage{
         justify-content: space-between;
         flex-direction: row;
@@ -401,7 +354,6 @@
     }
 
     .hautdepage .adresse{
-        /* align-self: flex-start; */
         width: 40vw;
     }
 
@@ -410,11 +362,10 @@
     }
 
     .hautdepage .web{
-        /* align-self: flex-end; */
         width: 40vw;
     }
 
-    .web span{
+    .web a{
         font-size: 2.3vw;
     }
 
@@ -434,9 +385,7 @@
 
     header ul li a {
         font-size: 1em;
-    }
-
-        
+    }       
 }
 
 @media (max-width: 350px ){
@@ -470,6 +419,6 @@
     .Drapeaux span{
         font-size: 1em !important;
     }
-        
-
 }
+
+/* Retirer les ! imp. + categorie 950 ? */
