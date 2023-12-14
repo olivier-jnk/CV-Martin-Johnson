@@ -9,6 +9,7 @@
     padding: 0;
 }
 
+
 body{
     position: relative;
     background-color: #fdf8e2;
@@ -43,16 +44,13 @@ header{
     justify-content: center;
     border-bottom: solid 5px #751700;
     height: 5vh;
-    box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.27);
-
-    
+    box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.27);  
 }
 
 header ul{
     display: flex;
     gap: 10px;
-    list-style: none;
-    
+    list-style: none;   
 }
 
 header ul li{
@@ -73,11 +71,9 @@ header ul li .active{
  }
 
 header ul li:hover{
-
     background-color: #231f2020;
     height: 100%;
-}
-    
+} 
 
 header ul li:hover a{
     color: white;
@@ -99,11 +95,7 @@ header ul li:hover .active{
     width: 15vw;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     flex-direction: column;
-    /* margin: 2vh 2vh 0vh 2vh;
-    padding: 2vw; */
-    
 }
 
 .adresse address{
@@ -112,35 +104,27 @@ header ul li:hover .active{
     font-style: normal;
 }
 
-
 .web{
     position: relative;
     width: 15vw;
     justify-content: center;
     flex-direction: column;
-    /* margin: 4vh 2vh 0vh 2vh;
-    padding: 2vw; */
-    
 }
 
-.web span{
+.web ul.txt{
     position: absolute;
     top: 20%;
     right: 18%;
-    color: rgb(255, 255, 255);
-    font-size: 0.8vw;
-    font-family: "Gaming";
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
 }
 
 .web a{
-    position: absolute;
-    top: 20%;
-    right: 18%;
     color: rgb(255, 255, 255);
     font-size: 0.8vw;
     font-family: "Gaming";
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 
 /* modif le a, delete span si necessaire. */
@@ -175,16 +159,12 @@ header ul li:hover .active{
     width: 85%;
     left: 7%;
     top: 50%;
-    z-index: 0;
-    
+    z-index: 0;    
 }
-
-
-    
-  .infos2 .gdesign{
+  
+.infos2 .gdesign{
     position: relative;
-  }
-
+}
 
 .infos2 h1{
     letter-spacing: 2px;
@@ -195,7 +175,6 @@ header ul li:hover .active{
 }
 
 /* Présentation. */
-
 .presentation{
     display: flex;
     padding: 10px;
@@ -203,6 +182,7 @@ header ul li:hover .active{
     align-items: center;
     margin: 0% 5%;
 }
+
 .presentation img{
     width: 13%;
 }
@@ -241,7 +221,6 @@ header ul li:hover .active{
 }
 
 /* EXPERIENCE */
-
 .mid{
     position: relative;  /* !!!*/
     margin: 0 auto;
@@ -250,7 +229,6 @@ header ul li:hover .active{
     justify-content: center;
     flex-wrap: wrap;
     margin: 0% 0% 0% 0%;
-
 }
 
 .background-section{
@@ -258,7 +236,6 @@ header ul li:hover .active{
     height: 100%; 
     width: 100%;
     z-index: 0;
-
     background-image: url('Images/Vague-beige.svg');
     background-size: cover; 
     background-position: center center;
@@ -266,7 +243,6 @@ header ul li:hover .active{
 
 .mid .part{
     margin: 0 auto;
-    /* margin: 5%; */
     width: 20vw;
     display: flex;
     flex-direction: column;
@@ -274,11 +250,9 @@ header ul li:hover .active{
     gap: 25px;
 }
 
-
 /* Partie 1 */
 .part1{
     margin: 0 auto;
-    /* margin: 5%; */
     width: 10vw;
     display: flex;
     flex-direction: column;
@@ -407,12 +381,10 @@ header ul li:hover .active{
 /* Partie 3 */
 .part3{
     margin: 0 auto;
-    /* margin:5%; */
     width: 20vw;
     display: flex;
     flex-direction: column;
     gap: 25px;
-    /* width: 100%; */
     height: 100%;
     justify-content: center;
     margin-top: 5%;
@@ -503,16 +475,12 @@ header ul li:hover .active{
 }
 
 .competences ul li img{
-    /* width: 100%; */
-
-    width: 20vw;
     min-width: 200px;
 }
 
 .competences span{
-    /* width: 70%; */
     font-weight: 750;
-    color:#4d504d;    
+    color:#4d504d;
 }
 
 .textcontainer{
@@ -561,9 +529,7 @@ header ul li:hover .active{
 }
 
 .hobbies ul{
-    /* margin-top:5%; */
     display: flex;
-    /* justify-content: center; */
     justify-content: space-around;
     align-items: center;
     gap: 10px;
@@ -635,7 +601,6 @@ header ul li:hover .active{
     display: flex;
     flex-direction: row;
     gap:40px;
-    /* margin: 5%; */
     flex-wrap: wrap;
     justify-content: center;
     width: 40vw;
