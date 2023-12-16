@@ -17,15 +17,20 @@
     <header>
         <ul>
             <li><a href="#">CV 1</a></li>
-            <li><a href="#" class="active">CV 2</a></li>     
+            <li><a href="#" class="active">Accueil</a></li>
         </ul>
     </header>
-    <section class="hautdepage">
+
+    <!-- remplacé section/class -->
+    <div class="hautdepage">
         <!-- infos -->
-            <div class="adresse">
-                <address>25 rue des mésanges</adress>
-                <address>Bat.A apt 112</adress>
-                <address>33000 Bordeaux</adress>
+            <div class="adresse" href>
+                <a href="https://www.google.fr/maps/search/25+rue+des+m%C3%A9sanges+Bat.A+apt+112+33000+Bordeaux/@44.3527636,-0.2312828,7z/data=!3m1!4b1?entry=ttu">
+                    <address>25 rue des mésanges</address>
+                    <address>Bat.A apt 112</address>
+                    <address>33000 Bordeaux</address>
+                    <!-- envoie vers maps -->
+                </a>
             </div>
             <div class="infos2">
                 <h1>Martin Johnson</h1>
@@ -46,10 +51,11 @@
                     <li><a href="www.gamebymartin.com">www.gamebymartin.com</a></li>
                 </ul>
             </div>
-    </section>
+        </div>
 
     <!-- Présentation- txt. -->
-    <section class="presentation">
+    <!-- remplacé section/class -->
+    <div class="presentation">
        <div class="textcontainer">
             <span>24 ans, célibataire. 
                 Après avoir hérité de la collection gaming paternelle, j’ai étudié l’histoire du jeu vidéo 
@@ -63,10 +69,10 @@
             <img class="ruby" src="Images/Ruby.svg" alt="Ruby pixellisé">
         </div> 
         <img class="pp" src="Images/Photodeprofil.svg" alt="Photo de profil de Martin Johnson">
-    </section>
+    </div>
 
     <!-- EXP -->
-    <section class="mid">
+    <div class="mid">
         <div class="part1">  <!-- Skills  -->
             <div class="image">
                 <img src="Images/Couronne.svg" alt="Couronne (style 8bit)">
@@ -111,11 +117,12 @@
                 <li><span class="gras">Baccalauréat S</span><br> Juin 2016 <br> <span class="gras">Lycée Montesquieu Bordeaux</span></li>
             </ul>
         </div>
-        <section class="background-section"></section>
-    </section>
+        <!-- Section/div ci-dessous -->
+        <div class="background-section"></div>
+    </div>
 
     <!-- Bottom -->
-    <section class="bottom"> 
+    <div class="bottom"> 
         <div class="competences"> <!-- Compétences -->
             <h3 class="comp">Compétences</h3>
             <ul>
@@ -212,6 +219,6 @@
                 </div>
             </div>
         </div>
-    </section> 
+    </div> 
 </body>
 </html>
