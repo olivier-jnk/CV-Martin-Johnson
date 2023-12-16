@@ -3,29 +3,19 @@
     src: url(fonts/Projet\ collaboratif\ -\ CV\ -\ Retro\ Gaming.ttf);
 }
 
-
 *{
     margin: 0;
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 body{
-
-    scroll-behavior: smooth;
-
     position: relative;
     background-color: #fdf8e2;
-    background-image: url(Images/Vague\beige.svg); /* innutile */
-    background-repeat: no-repeat;
-    background-position: absolute;
-    background-size: contain;
-    background-position-x: 10%;
-    background-position-y: 10%
-
 }
-/* Innutile. Supprimer. */
-
 
 ::-webkit-scrollbar {
     display: none;
@@ -35,7 +25,6 @@ body{
 span{
     font-family: 'Montserrat', sans-serif;
     font-size: 1vw; /* !!! */
-
 }
 
 a{
@@ -108,11 +97,10 @@ header ul li:hover .active{
     
 }
 
-/* .addresse.a{
-    text-decoration: none;
-    color: black;
-    
-} */
+.adresse address:hover{
+    color: #e25f3f;
+    text-decoration: underline;
+}
 
 .adresse address{
     font-size: 1vw;
@@ -130,11 +118,12 @@ header ul li:hover .active{
 
 .web ul.txt{
     position: absolute;
-    top: 20%;
+    top: 25%;
     right: 18%;
     display: flex;
     flex-direction: column;
     list-style-type: none;
+    gap: 10px;
 }
 
 .web a{
@@ -144,8 +133,11 @@ header ul li:hover .active{
     text-decoration: none;    
 }
 
-/* modif le a, delete span si necessaire. */
-    
+.web a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
 .infos2{
     display: flex;
     flex-direction: column;
@@ -448,7 +440,7 @@ header ul li:hover .active{
 
 .bottom{
     display: flex;
-    margin: 0% 3%;
+    margin: 0% 3% 5% 3%;
     justify-content: space-between;
 }
 
@@ -493,6 +485,14 @@ header ul li:hover .active{
 
 .competences ul li img{
     min-width: 200px;
+    width: 17vw;
+    /* new: width */
+    transition: transform 0.3s linear(0 0%, 0 1.8%, 0.01 3.6%, 0.03 6.35%,)
+}
+
+.competences ul li img:hover{
+    transform: translateX(20px);
+    filter: brightness(90%);
 }
 
 .competences span{
@@ -522,7 +522,7 @@ header ul li:hover .active{
     justify-content: center;
     height: 100%;
     margin: 0;
-    gap: 50px; /* !!! */
+    gap: 50px;
 }
 
 .hobbies{
@@ -530,6 +530,7 @@ header ul li:hover .active{
     display: flex;
     align-items: center;
     gap:20px; 
+    z-index: 1;
 }
 
 .hobbies .hobbie{
@@ -559,11 +560,13 @@ header ul li:hover .active{
     flex-direction: column;
     flex-wrap: wrap;
     width: 30%;
+    gap: 2px; 
+    /* new gap. */
 }
 
 .hobbies ul li img{
     width:3vw;
-    height: 3vw; /*  !!!*/
+    height: 3vw;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -577,12 +580,13 @@ header ul li:hover .active{
     align-items: center;
 }
 
-/* DRAPEAUX !!! */
+/* DRAPEAUX*/
 .langues{
     margin: 2% 0%;
     display: flex;
     align-items: center;
     gap: 20px;
+    z-index: 1;
 }
 
 .langues .langue{
