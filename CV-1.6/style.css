@@ -11,6 +11,9 @@
 
 
 body{
+
+    scroll-behavior: smooth;
+
     position: relative;
     background-color: #fdf8e2;
     background-image: url(Images/Vague\beige.svg); /* innutile */
@@ -19,6 +22,7 @@ body{
     background-size: contain;
     background-position-x: 10%;
     background-position-y: 10%
+
 }
 /* Innutile. Supprimer. */
 
@@ -32,6 +36,11 @@ span{
     font-family: 'Montserrat', sans-serif;
     font-size: 1vw; /* !!! */
 
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 /* Header */
@@ -96,12 +105,20 @@ header ul li:hover .active{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
 }
+
+/* .addresse.a{
+    text-decoration: none;
+    color: black;
+    
+} */
 
 .adresse address{
     font-size: 1vw;
     font-weight: 500;
     font-style: normal;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .web{
