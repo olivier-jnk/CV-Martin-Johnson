@@ -85,14 +85,13 @@
 }
 
 /* MAX-width */
-
 @media (max-width: 1000px ){
     .mid span{
-        font-size: 1em !important;
+        font-size: 1em; 
     }
 
     .bottom span{
-        font-size: 0.8em !important;
+        font-size: 0.8em;
     }
 
     .bottom .competences .comp {
@@ -112,7 +111,7 @@
     }
 
     .part2 .num{
-        font-size: 3em !important;
+        font-size: 3em;
     }
 
     .hautdepage{
@@ -313,7 +312,7 @@
     }
 
     .hobbies ul li span{
-        font-size: 0.8em !important;
+        font-size: 0.8em;
     }
 
     .hobbies ul{
@@ -352,37 +351,37 @@
         flex-wrap: wrap;
         gap: 0;
     }
-
+    
     .hautdepage .adresse{
         width: 40vw;
     }
-
+    
     .hautdepage .adresse address{
         font-size: 3.5vw;
     }
-
+    
     .hautdepage .web{
         width: 40vw;
     }
-
+    
     .web a{
         font-size: 2.3vw;
     }
-
+    
     .infos2 {
         width: auto;
         order: 3;
         margin-top: 0;
     }
-
+    
     .infos2 .gddesign img {
         width: 95vw;
     }
-   
+       
     .infos2 h1 {
         font-size: 5.5vw;
     }
-
+    
     header ul li a {
         font-size: 1em;
     }       
@@ -408,7 +407,7 @@
     }
 
     .hobbies ul li span{
-        font-size: 1em !important; /* Retirer les imp.*/
+        font-size: 1em;
     }
 
     .langues img{
@@ -417,8 +416,6 @@
     }
 
     .Drapeaux span{
-        font-size: 1em !important;
+        font-size: 1em;
     }
 }
-
-/* Retirer les ! imp. + categorie 950 ? */
